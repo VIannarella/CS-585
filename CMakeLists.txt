@@ -3,7 +3,7 @@ project( test )
 
 enable_testing()
 find_package ( Threads )
-include_directories( gtest )
+include_directories( gtest/include )
 link_directories( gtest/build )
 add_executable( assign_1 game.m.cpp )
 
