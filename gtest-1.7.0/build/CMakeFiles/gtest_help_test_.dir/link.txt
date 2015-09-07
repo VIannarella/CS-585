@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/gtest_help_test_.dir/test/gtest_help_test_.cc.o  -o gtest_help_test_  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest_main.so libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 

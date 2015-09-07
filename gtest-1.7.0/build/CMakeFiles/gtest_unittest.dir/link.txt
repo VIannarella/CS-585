@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/gtest_unittest.dir/test/gtest_unittest.cc.o  -o gtest_unittest  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest_main.so libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 
