@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest_main_no_exception.so -o libgtest_main_no_exception.so CMakeFiles/gtest_main_no_exception.dir/src/gtest-all.cc.o CMakeFiles/gtest_main_no_exception.dir/src/gtest_main.cc.o  -L/home/victor/gtest-1.7.0/build/src 

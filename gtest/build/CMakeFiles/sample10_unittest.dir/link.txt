@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o  -o sample10_unittest  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 

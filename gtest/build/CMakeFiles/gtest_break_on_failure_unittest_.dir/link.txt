@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/gtest_break_on_failure_unittest_.dir/test/gtest_break_on_failure_unittest_.cc.o  -o gtest_break_on_failure_unittest_  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 

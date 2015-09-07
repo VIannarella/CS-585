@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/gtest_xml_outfile2_test_.dir/test/gtest_xml_outfile2_test_.cc.o  -o gtest_xml_outfile2_test_  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest_main.so libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 
