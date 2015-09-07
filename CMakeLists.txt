@@ -8,6 +8,6 @@ link_directories( gtest/build )
 add_executable( assign_1 game.m.cpp )
 
 add_executable( assign_1_test main_test_all.cpp )
-target_link_libraries( assign_1_test gtest/src/gtest gtest/src/gtest_main )
+target_link_libraries( assign_1_test gtest.h gtest_main )
 target_link_libraries( assign_1_test ${CMAKE_THREAD_LIBS_INIT} )
 
