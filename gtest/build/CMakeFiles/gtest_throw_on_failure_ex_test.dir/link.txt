@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/gtest_throw_on_failure_ex_test.dir/test/gtest_throw_on_failure_ex_test.cc.o  -o gtest_throw_on_failure_ex_test  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 

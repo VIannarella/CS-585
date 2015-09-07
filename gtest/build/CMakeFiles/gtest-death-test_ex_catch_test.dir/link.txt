@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/gtest-death-test_ex_catch_test.dir/test/gtest-death-test_ex_test.cc.o  -o gtest-death-test_ex_catch_test  -L/home/victor/gtest-1.7.0/build/src -rdynamic libgtest.so -Wl,-rpath,/home/victor/gtest-1.7.0/build/src:/home/victor/gtest-1.7.0/build 
