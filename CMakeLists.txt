@@ -3,7 +3,7 @@ project( test )
 
 find_package ( Threads )
 include_directories( gtest/include )
-link_directories( gtest/build )
+link_directories( build )
 add_executable( assign_1 game.m.cpp )
 
 add_executable( assign_1_test main_test_all.cpp )
