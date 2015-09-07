@@ -48,3 +48,6 @@ Coding standard
 46. Mutators must be prefixed with set (for the same example, you would have a void setTime( float time ))
 47. All namespaces must have a comment on the closing bracket indicating what namespace was closed in the form of // End nspc namespace (where nspc is the namespace being closed)
 48. All conditional blocks (if, for, while, etc.) must use curly braces
+49. There must not be any additional blanks lines at the beginning or end of functions following the opening curly bracket or preceeding the closing curly bracket.
+50. The body of a function must be indented exactly 4 space characters.
+51. All interior elements of multi-element boolean expressions must be separated with parentheses. 
