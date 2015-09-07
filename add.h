@@ -12,7 +12,7 @@ class Add
     Add();
       // Default constructor.
 
-    // MUTATOR
+    // OPERATOR
     int addElements( int, int);
       // Adds two ints.
 };
@@ -23,7 +23,7 @@ Add::Add()
 {
 }
 
-// MUTATOR
+// OPERATOR
 inline
 int Add::addElements( int x, int y )
 {

@@ -12,7 +12,7 @@ class Subtract
     Subtract();
       // Default constructor.
 
-    // MUTATOR
+    // OPERATOR
     int subtractElements( int, int);
       //Subtracts one int from another.
 };
@@ -23,7 +23,7 @@ Subtract::Subtract()
 {
 }
 
-// MUTATOR
+// OPERATOR
 inline
 int Subtract::subtractElements( int x, int y )
 {
