@@ -3,8 +3,8 @@ project( test )
 
 enable_testing()
 find_package ( Threads )
-include_directories( ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR} )
-link_directories( ${gtest_SOURCE_DIR}/build ${gtest_SOURCE_DIR} )
+include_directories( gtest )
+link_directories( gtest/build )
 add_executable( assign_1 game.m.cpp )
 
 add_executable( assign_1_test main_test_all.cpp )
