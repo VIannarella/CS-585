@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project( test )
 
+enable_testing()
 find_package ( Threads )
 include_directories( gtest/include )
 link_directories( gtest/lib )
