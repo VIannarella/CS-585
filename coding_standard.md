@@ -49,5 +49,9 @@ Coding standard
 47. All namespaces must have a comment on the closing bracket indicating what namespace was closed in the form of // End nspc namespace (where nspc is the namespace being closed)
 48. All conditional blocks (if, for, while, etc.) must use curly braces
 49. There must not be any additional blanks lines at the beginning or end of functions following the opening curly bracket or preceeding the closing curly bracket.
-50. The body of a function must be indented exactly 4 space characters.
-51. All interior elements of multi-element boolean expressions must be separated with parentheses. 
+50. There must not be any additional blank lines at the beginning or end of class definitions following the opening curly bracket or preceeding the closing curly bracket.
+51. There must not be any additional blank lines at the beginning or end of any conditional blocks(if, for, while, etc.) following the opening curly bracket and preceeding the closing curly bracket.
+52. There must be a single blank line both before and after any class definitions, function definitions, and conditional blocks.
+51. The body of a function must be indented exactly 4 space characters.
+52. The body of a condtional block must be indented exactly 4 space characters.
+52. All interior elements of multi-element boolean expressions must be separated with parentheses. 
