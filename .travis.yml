@@ -4,7 +4,6 @@ compiler:
   - gcc
   
 before_script:
-  - rm CMakeCache.txt
   - mkdir build
   - cd build
   - cmake ..
