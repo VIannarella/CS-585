@@ -54,4 +54,5 @@ Coding standard
 52. There must be a single blank line both before and after any class definitions, function definitions, and conditional blocks.
 51. The body of a function must be indented exactly 4 space characters.
 52. The body of a condtional block must be indented exactly 4 space characters.
-52. All interior elements of multi-element boolean expressions must be separated with parentheses. 
+52. All interior elements of multi-element boolean expressions must be separated with parentheses.
+53. There must be an additional blank line following the opening bracket of a name space definition and preceeding the closing bracket of the same definition.
