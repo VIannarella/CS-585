@@ -1,7 +1,7 @@
 // game.m.cpp
 #include <iostream>
-#include "add.h"
-#include "subtract.h"
+#include "src/add.h"
+#include "src/subtract.h"
 
 int main()
 {

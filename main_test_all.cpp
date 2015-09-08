@@ -1,7 +1,7 @@
 // main_test_all.cpp
 #include <gtest/gtest.h>
-#include "add.h"
-#include "subtract.h"
+#include "src/add.h"
+#include "src/subtract.h"
 
 TEST( testAdd, addTwoNumbers )
 {
