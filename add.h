@@ -13,7 +13,7 @@ class Add
       // Default constructor.
 
     // OPERATOR
-    int addElements( int, int);
+    int addElements( int, int );
       // Adds two ints.
 };
 
@@ -27,7 +27,7 @@ Add::Add()
 inline
 int Add::addElements( int x, int y )
 {
-    return x + y;
+    return ( x + y );
 }
 
 } // End StevensDev namespace

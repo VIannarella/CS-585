@@ -6,13 +6,13 @@
 TEST( testAdd, addTwoNumbers )
 {
     StevensDev::Add a;
-    EXPECT_EQ( 8, a.addElements( 3,5 ) );
+    EXPECT_EQ( 8, a.addElements( 3, 5 ) );
 }
 
 TEST( testSubtract, subtractTwoNumbers )
 {
     StevensDev::Subtract s;
-    EXPECT_EQ( 5, s.subtractElements( 8,3 ) );
+    EXPECT_EQ( 5, s.subtractElements( 8, 3 ) );
 }
 
 TEST( testSubtract2, subtractToNegative )

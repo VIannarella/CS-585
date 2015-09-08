@@ -13,7 +13,7 @@ class Subtract
       // Default constructor.
 
     // OPERATOR
-    int subtractElements( int, int);
+    int subtractElements( int, int );
       //Subtracts one int from another.
 };
 
@@ -27,7 +27,7 @@ Subtract::Subtract()
 inline
 int Subtract::subtractElements( int x, int y )
 {
-    return x - y;
+    return ( x - y );
 }
 
 } // End StevensDev namespace
