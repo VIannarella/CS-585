@@ -1,25 +1,7 @@
 // main_test_all.cpp
 #include <gtest/gtest.h>
-#include "add.h"
-#include "subtract.h"
-
-TEST( testAdd, addTwoNumbers )
-{
-    StevensDev::Add a;
-    EXPECT_EQ( 8, a.addElements( 3, 5 ) );
-}
-
-TEST( testSubtract, subtractTwoNumbers )
-{
-    StevensDev::Subtract s;
-    EXPECT_EQ( 5, s.subtractElements( 8, 3 ) );
-}
-
-TEST( testSubtract2, subtractToNegative )
-{
-    StevensDev::Subtract s;
-    EXPECT_EQ( -1, s.subtractElements( 8, 9 ) );
-}
+#include "allocator_test.h"
+#include "dynamic_array_test.h"
 
 int main(int argc, char **argv)
 {
