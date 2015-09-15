@@ -5,12 +5,6 @@
 #include "engine/memory/counting_allocator.h"
 #include "gtest/gtest.h"
 
-namespace StevensDev
-{
-
-namespace sgdt
-{
-
 class AllocatorTest : public ::testing::Test
 {
   public:
@@ -60,9 +54,5 @@ TEST( AssignmentOperator, assignment )
     testCountingAllocator2 = testCountingAllocator;
     EXPECT_EQ( 5, testCountingAllocator2.getAllocationCount() );
 }
-
-}  // End namespace sgdt
-
-}  // End namespace StevensDev
 
 #endif // ALLOCATORTEST_H

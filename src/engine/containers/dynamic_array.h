@@ -26,10 +26,10 @@ class DynamicArray
 
   public:
     // FREE OPERATORS
-    T& operator[]( const int index );
+    T& operator[]( int index );
       // Assign the [] operator for DynamicArray objects.
       // Undefined behavior if index is out of bounds.
-    T const operator[]( const int index ) const;
+    const T operator[]( int index ) const;
       // Assign the [] operator for DynamicArray objects
       // Undefined behavior if index is out of bounds
     DynamicArray<T>& operator= ( const DynamicArray<T>& other );
@@ -40,6 +40,7 @@ class DynamicArray
       // Default constructor
     DynamicArray( sgdm::IAllocator<T>* alloc );
       // Constructs using a pointer to an allocator for use with memory
+      // with an initial allocation of 5 elements.
     DynamicArray( DynamicArray &other );
       // Copy constructor
     ~DynamicArray();
@@ -55,6 +56,10 @@ class DynamicArray
     // MUTATORS
     void reallocate();
       // Allocate more memory for the array.
+      // Allocates 5 array elements at a time. 
+      // The array is copied, deleted, reallocated,
+      // then repopulated with the original data.
+      // The temporary array is then deleted.
     void push( const T& element );
       // Add element to end of collection, grow
     void pushFront( T element );
@@ -74,14 +79,14 @@ class DynamicArray
 // FREE OPERATORS
 template <class T>
 inline
-T& DynamicArray<T>::operator []( const int index )
+T& DynamicArray<T>::operator []( int index )
 {
     return at( index );
 }
 
 template <class T>
 inline
-T const DynamicArray<T>::operator []( int index ) const
+const T DynamicArray<T>::operator []( int index ) const
 {
     return at( index );
 }
@@ -93,14 +98,14 @@ DynamicArray<T>& DynamicArray<T>::operator= ( const DynamicArray<T>& other )
 
     if( this != &other )
     {
-        d_allocator->release( d_pointer, d_capacity );
-        d_pointer = 0;
+        this->d_allocator = other.d_allocator;
+        this->d_length = other.d_length;
+        this->d_capacity = other.d_capacity;
+        this->d_pointer = this->d_allocator->get( d_capacity );
 
-        d_pointer = d_allocator->get( other.getCapacity() );
-
-        for( int i = 0; i < other.getLength(); i ++ )
+        for( int i = 0; i < d_length; i ++ )
         {
-            push( other.at( i ) );
+            this->d_pointer[ i ] = other.d_pointer[ i ];
         }
     }
 

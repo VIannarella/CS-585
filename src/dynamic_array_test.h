@@ -165,22 +165,9 @@ TEST( AtExceptionTest, atOutOfBounds )
     delete testDynamicArray;
 }
 
-TEST( operatorOverload, atOperator )
-{
-    StevensDev::sgdc::DynamicArray<int>* testDynamicArray =
-        new StevensDev::sgdc::DynamicArray<int>(
-        new StevensDev::sgdm::CountingAllocator<int> );
-    testDynamicArray->push( 10 );
-    testDynamicArray->push( 11 );
-//    EXPECT_EQ( 11, testDynamicArray[ 1 ] );
-    delete testDynamicArray;
-}
-
 TEST( operatorOverload, assignmentOperator )
 {
-    StevensDev::sgdc::DynamicArray<int>* testDynamicArray =
-        new StevensDev::sgdc::DynamicArray<int>(
-        new StevensDev::sgdm::CountingAllocator<int> );
+    StevensDev::sgdc::DynamicArray<int>* testDynamicArray;
     StevensDev::sgdc::DynamicArray<int>* testDynamicArray2 =
         new StevensDev::sgdc::DynamicArray<int>(
         new StevensDev::sgdm::CountingAllocator<int> );
