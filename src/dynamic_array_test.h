@@ -8,9 +8,10 @@
 class DynamicArrayTest : public ::testing::Test
 {
   public:
-
+    // CONSTRUCTOR
     DynamicArrayTest();
-
+    
+    // SETUP AND TEATDOWN FUNCTIONS
     virtual void SetUp();
 
     virtual void TearDown();
