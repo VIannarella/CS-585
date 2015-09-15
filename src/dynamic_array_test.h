@@ -177,7 +177,7 @@ TEST( operatorOverload, assignmentOperator )
     testDynamicArray = testDynamicArray2;
     EXPECT_EQ( 15, testDynamicArray->at( 0 ) );
     EXPECT_EQ( 21, testDynamicArray->at( 1 ) );
-    delete testDynamicArray;
+    delete testDynamicArray2;
 }
 
 TEST( memoryUsage, memoryLeakOnReallocation )
