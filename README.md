@@ -7,8 +7,8 @@ This is the cumulative assignment for CS585 at Stevens Institute of Technology
 * Create a build directory in the root directory
 * cd into the build directory
 * Execute cmake in the build directory to generate a make file.
-* Execute make and observe that assign_1 and assign_1_test are created.
-* Execute the built executables by running assign_1 and assign_1_test.
+* Execute make and observe that assign_1 and assign_2_test are created.
+* Execute the built executable and assign_2_test to observe googleTest output.
 
 # Coding Standard
 ---
